@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 :root {
   --iriscolor: #4d5ae5;
@@ -34,7 +36,6 @@
 .navbar .pages {
   color: var(--navcolor);
   text-decoration: none;
-  font-family: Roboto;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -67,7 +68,6 @@
 
 .h1-title {
   color: var(--white);
-  font-family: Roboto;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 1.12px;
@@ -101,7 +101,6 @@
 }
 
 .featurestitle {
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -110,7 +109,6 @@
 }
 
 .desclist {
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -122,7 +120,6 @@
 .sectiontitle {
   text-align: center;
   color: var(--navyblue);
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -133,7 +130,6 @@
 
 .teamname {
   color: var(--navyblue);
-  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
