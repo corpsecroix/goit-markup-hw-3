@@ -1,5 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif;
+  color: var(--slate, #434455);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 
 :root {
@@ -17,7 +24,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  letter-spacing: 0.54;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
@@ -25,24 +32,24 @@ body {
   color: var(--iriscolor);
 }
 
-.studio-logofooter {
-  color: var(--cloud);
-}
-
 .studio-logo {
   color: var(--navyblue);
+}
+
+.studio-logofooter {
+  color: var(--cloud);
 }
 
 .navbar .pages {
   color: var(--navcolor);
   text-decoration: none;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  font-weight: 500;
 }
 
 .lists {
+  margin: 0;
   list-style-type: none;
+  padding: 0;
 }
 
 .navbar .pages:hover,
@@ -55,20 +62,18 @@ body {
 
 .contact-info .info {
   color: var(--navcolor);
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.32px;
   text-decoration: none;
 }
 
-.bg-sec1 {
+.hero {
   background-color: var(--navyblue);
 }
 
-.h1-title {
+.hero-title {
   color: var(--white);
   font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
   text-align: center;
@@ -76,7 +81,8 @@ body {
 
 .btn {
   cursor: pointer;
-  border-color: transparent;
+  border-radius: 4px;
+  border: none;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -86,7 +92,7 @@ body {
 }
 
 .btn.main {
-  background-color: var(--iriscolor);
+  background-color: var(--oceancolor);
   color: var(--white);
   font-size: 16px;
   font-style: normal;
@@ -102,19 +108,11 @@ body {
 
 .featurestitle {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.4px;
 }
 
 .desclist {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  color: var(--slate);
 }
 
 .sectiontitle {
@@ -131,19 +129,8 @@ body {
 .teamname {
   color: var(--navyblue);
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px;
   letter-spacing: 0.4px;
-}
-
-.position {
-  color: var(--slate);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 
 .footerbg {
@@ -152,9 +139,4 @@ body {
 
 .finaldesc {
   color: var(--cloud);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
