@@ -43,10 +43,7 @@ body {
 .navbar .pages {
   color: var(--navcolor);
   text-decoration: none;
-  font-weight: 500;
-}
-
-.lists {
+  font-weight: 50;
   margin: 0;
   list-style-type: none;
   padding: 0;
