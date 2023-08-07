@@ -111,7 +111,7 @@ body {
 
 .btn.main:hover,
 .btn.main:focus {
-  background-color: blue;
+  background-color: var(--oceancolor);
 }
 
 .featurestitle {
@@ -174,12 +174,15 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   color: var(--cloud);
+  border-color: var(--oceancolor);
   background-color: var(--oceancolor);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .active-button {
   color: var(--white);
-  border-radius: 4px;
+  border-color: var(--oceancolor);
   background: var(--oceancolor);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
