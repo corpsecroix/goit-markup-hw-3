@@ -1,7 +1,4 @@
-CSS
-
 /* CSS RESET */
-
 h1,
 h2,
 h3,
@@ -9,15 +6,21 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* VARIABLES */
@@ -63,6 +66,9 @@ img {
   border-bottom: 1px solid var(--cornflower);
 }
 
+.section {
+  padding: 120px 0;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -87,12 +93,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iriscolor);
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .menu {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .menu-item {
@@ -121,11 +128,12 @@ img {
 }
 
 .hero-button {
-  background-color: var(--iriscolor);
+  background-color: var(--ocean);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  border: none;
   color: var(--white);
   display: inline-flex;
   padding: 16px 32px;
@@ -142,18 +150,11 @@ img {
   cursor: pointer;
 }
 
-/* SECTION */
-
-.feature-section {
-  padding: 120px 0;
+.section-no-top-padding {
+  padding-top: 0;
 }
 
-.whatwedo-section {
-  padding: 120px;
-}
-
-.team-section {
-  padding: 120px 0;
+.section-grey {
   background-color: var(--cloud);
 }
 
@@ -317,6 +318,7 @@ img {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   max-width: 264px;
+  margin-top: 18px;
 }
 
 /* PORTFOLIO */
@@ -330,6 +332,7 @@ img {
   padding: 24px 0;
 }
 
+.active-link,
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean);
@@ -341,3 +344,5 @@ img {
   border-top: none;
   margin-bottom: 8px;
 }
+
+/* loom tutorial of sir Val paused at 7:06 */
