@@ -48,6 +48,7 @@ img {
 }
 
 .link {
+  color: inherit;
   list-style: none;
   text-decoration: none;
 }
@@ -200,6 +201,7 @@ img {
   padding: 12px 24px;
 }
 
+.active-filter,
 .button:hover,
 .button:focus {
   color: var(--white);
@@ -219,9 +221,15 @@ img {
   margin-bottom: 72px;
 }
 
-.project-link {
-  width: calc((100% - 48px) / 3);
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
+
+/* .project-link {
+  width: calc((100% - 48px) / 3);
+} */
 
 .contact-link {
   line-height: 1.5;
@@ -342,7 +350,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 /* loom tutorial of sir Val paused at 7:06 */
